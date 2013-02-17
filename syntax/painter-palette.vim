@@ -13,10 +13,10 @@ syntax match painterPaletteBlue   /青/
 syntax match painterPaletteYellow /黄/
 syntax match painterPaletteGreen  /緑/
 
-highlight default painterPaletteWhite guifg=white guibg=white
-highlight default painterPaletteRed guifg=red guibg=red
-highlight default painterPaletteBlue guifg=blue guibg=blue
-highlight default painterPaletteYellow guifg=yellow guibg=yellow
-highlight default painterPaletteGreen guifg=green guibg=green
+highlight default painterPaletteWhite  guifg=White  guibg=White
+highlight default painterPaletteRed    guifg=Red    guibg=Red
+highlight default painterPaletteBlue   guifg=Blue   guibg=Blue
+highlight default painterPaletteYellow guifg=Yellow guibg=Yellow
+highlight default painterPaletteGreen  guifg=Green  guibg=Green
 
 let b:current_syntax = 'painter-palette'
