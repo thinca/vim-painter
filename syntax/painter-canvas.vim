@@ -13,10 +13,10 @@ syntax match painterCanvasBlue   /青/
 syntax match painterCanvasYellow /黄/
 syntax match painterCanvasGreen  /緑/
 
-highlight default painterCanvasWhite  guifg=White  guibg=White
-highlight default painterCanvasRed    guifg=Red    guibg=Red
-highlight default painterCanvasBlue   guifg=Blue   guibg=Blue
-highlight default painterCanvasYellow guifg=Yellow guibg=Yellow
-highlight default painterCanvasGreen  guifg=Green  guibg=Green
+highlight default painterCanvasWhite  ctermfg=White  ctermbg=White  guifg=White  guibg=White
+highlight default painterCanvasRed    ctermfg=Red    ctermbg=Red    guifg=Red    guibg=Red
+highlight default painterCanvasBlue   ctermfg=Blue   ctermbg=Blue   guifg=Blue   guibg=Blue
+highlight default painterCanvasYellow ctermfg=Yellow ctermbg=Yellow guifg=Yellow guibg=Yellow
+highlight default painterCanvasGreen  ctermfg=Green  ctermbg=Green  guifg=Green  guibg=Green
 
 let b:current_syntax = 'painter-canvas'
