@@ -18,6 +18,7 @@ function! painter#start()
   silent put ='白白白  赤赤赤  青青青  黄黄黄  緑緑緑'
   noremap <buffer> <silent> <LeftMouse> :<C-u>call <SID>set_color()<CR>
   setlocal filetype=painter-palette
+  1
 
   belowright new painter-canvas
   wincmd p
@@ -30,8 +31,8 @@ function! painter#start()
   noremap <buffer> <silent> <LeftDrag>   :<C-u>call <SID>draw(0)<CR>
   noremap <buffer> <silent> <RightMouse> :<C-u>call <SID>erase(1)<CR>
   noremap <buffer> <silent> <RightDrag>  :<C-u>call <SID>erase(0)<CR>
-
   setlocal filetype=painter-canvas
+  1
 endfunction
 
 function! s:draw(first)
